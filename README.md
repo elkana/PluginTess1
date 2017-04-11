@@ -1,3 +1,10 @@
+PluginTess1
+=============
+
+This cordova plugin use [tesseract.js](http://tesseract.projectnaptha.com/) to scan text
+
+Usage
+-----
 
 ```javascript
             cordova.plugins.PluginTess1.recognizeText(document.getElementById('gambar1'), 	
