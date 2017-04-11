@@ -1,7 +1,13 @@
 PluginTess1
 =============
 
-This cordova plugin use [tesseract.js](http://tesseract.projectnaptha.com/) to scan text
+This cordova plugin use [tesseract.js](http://tesseract.projectnaptha.com/) for OCR process for Browser, Android and iOS. Tesseract is an Open Source library for OCR (Optical Character Recognition) process.
+
+Installation
+------------
+```
+cordova plugin add https://github.com/elkana/PluginTess1
+```
 
 Usage
 -----
