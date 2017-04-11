@@ -17,7 +17,7 @@ exports.recognizeText = function (image, language, successCallback, errorCallbac
     tess.recognize(image, {lang: 'eng'})
         .then(successCallback)
         .catch(errorCallback)
-        .progress(progressCallback);
+        .progress(typeof progressCallback === 'undefined' ? function(){} : progressCallback);
 
     //exec(successCallback, errorCallback, "PluginTess1", "recognizeText", [language, image]);
 };

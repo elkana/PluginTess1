@@ -9,7 +9,7 @@
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="PluginTess1">
-				<param name="android-package" value="cordova-plugin-tess1.PluginTess1" />
+				<param name="android-package" value="com.ppu.cordova.PluginTess1" />
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml"/>
