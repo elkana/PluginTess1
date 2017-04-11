@@ -3,6 +3,12 @@ PluginTess1
 
 This cordova plugin use [tesseract.js](http://tesseract.projectnaptha.com/) to scan text
 
+Installation
+------------
+```
+cordova plugin add https://github.com/elkana/PluginTess1
+```
+
 Usage
 -----
 
